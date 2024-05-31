@@ -4,9 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
-
-
+        {
+            "type": "java",
+            "name": "AboutMeScan",
+            "request": "launch",
+            "mainClass": "AboutMeScan",
+            "projectName": "terminal_6d8350b"
+        },
         {
             "type": "java",
             "name": "Current File",
@@ -18,8 +22,12 @@
             "name": "AboutMe",
             "request": "launch",
             "mainClass": "AboutMe",
-            //"projectName": "terminal_6d8350b",
-            "args": ["Isabelle","Maciel","24","1.70"]
+            "args": [
+                "Isabelle",
+                "Maciel",
+                "24",
+                "1.70"
+            ]
         },
         {
             "type": "java",
@@ -27,7 +35,6 @@
             "request": "launch",
             "mainClass": "MinhaClasse",
             "projectName": "terminal_6d8350b"
-            
         }
     ]
 }
