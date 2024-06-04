@@ -8,6 +8,7 @@ public class CaixaEletronico {
         double saldo = 30.0;
         System.out.println("Digite valor do saque: ");
         double saque = scan.nextDouble();
+        scan.close();
 
         if(saldo > saque){
             saldo -= saque;

@@ -6,6 +6,7 @@ public class ResultadoEscolar {
 
         System.out.println("Digite a nota: ");
         int nota = scan.nextInt();
+        scan.close();
 
         if(nota >= 7)// retorna true ou false, tem que ser true para executar o código
         System.out.println("Aprovado!");

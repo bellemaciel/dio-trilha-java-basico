@@ -8,6 +8,7 @@ public class ResultadoEscolarTernário {
 
         System.out.println("Digite a nota: ");
         int nota = scan.nextInt();
+        scan.close();
 
         //String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
         String resultado = nota >= 7 ? "Aprovado" : nota >=5 && nota < 7 ? "Recuperação" : "Reprovado";

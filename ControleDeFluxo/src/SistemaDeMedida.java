@@ -7,6 +7,7 @@ public class SistemaDeMedida {
         Scanner scan = new Scanner(System.in);
         System.out.println("Digite sigla do tamanho: ");
         String sigla = scan.next();
+        scan.close();
 
         switch (sigla) {
             case "P":

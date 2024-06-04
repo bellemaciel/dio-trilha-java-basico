@@ -7,6 +7,7 @@ public class PlanoOperadora {
 
         System.out.println("Digite o plano : ");
         String plano = scan.nextLine();
+        scan.close();
 
         switch (plano) {
             case "T":
