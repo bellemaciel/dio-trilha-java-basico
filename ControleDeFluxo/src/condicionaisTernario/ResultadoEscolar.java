@@ -1,3 +1,4 @@
+package condicionaisTernario;
 import java.util.Scanner;
 
 public class ResultadoEscolar {

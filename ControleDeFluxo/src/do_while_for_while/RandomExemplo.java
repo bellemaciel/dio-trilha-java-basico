@@ -1,3 +1,4 @@
+package do_while_for_while;
 import java.util.Random;
 
 public class RandomExemplo {
