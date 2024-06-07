@@ -1,8 +1,12 @@
+import java.util.InputMismatchException;
 import java.util.Locale;
 import java.util.Scanner;
 
+
 public class AboutMeScan {
     public static void main(String[] args) {
+       
+       try{  //  bloco de código conforme esperado
         //criando o objeto scanner
         Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
         
@@ -17,6 +21,7 @@ public class AboutMeScan {
         
         System.out.println("Digite sua altura");
         double altura = scanner.nextDouble();
+        scanner.close();
 
         
         //imprimindo os dados obtidos pelo usuario
@@ -24,6 +29,12 @@ public class AboutMeScan {
         System.out.println("Tenho " + idade + " anos ");
         System.out.println("Minha altura é " + altura + "cm ");
         
-        
+       }
+       catch(InputMismatchException e){
+        System.out.println("Os campos de Idade e Altura precisam ser numéricos!");
+
+       }// precisamos saber qual exceção
+  // bloco de código que captura as exceções que podem acontecer
+  // em caso de um fluxo não previsto
     }
 }
